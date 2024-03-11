@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.img{
+    flex: 1;
+}
+#Menu1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    z-index: 1000; /* Đảm bảo menu1 luôn hiển thị trên top */
+}
+.Menu{
+    flex: 10;
+}
+.img,.Menu{
+    padding: 10px;
+    margin: 5px;
+}
+a{
+    margin: 20px;
+}
+button{
+    width: 120px;
+    height: 50px;
+}
+#Ip15pro{
+    background-image: url('https://s3-alpha-sig.figma.com/img/9448/d682/8d860de3b634906c5ce42b0c7e3d97b0?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dVmMT19TJxLDXqpVF2KDdOaCHi9iM8r2AV69xRzt47TbpTT21uy7RZ8GrweW1LEP4Rie8gnyGwRasacy6r26kQUrrqhvQf7xcRy8paEU0xLqE8EOyjemcDXKimxhGfmd4fB3ywqAz97PilJcmI0MqZy2ojhJ8jVY9KnR7qP7W9NkTykCEV5A4Whf-nk~cLpVWJ2ObAxdyKpkd10hZxP5j65JNiucTO5mIDkL5pQUUiBQP0ch60Ggc4~v~R6SwxNE53Bmpwn7SYjzGBToTWdUwMq6CWNZK-2ACvk9bdhXAoPqmULm4qWNvoK~37r87zCWf6fAg1MiRANqDc-vOMWt5w__');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.document h1{
+    font-size: 70px;
+}
+.tieu-de{
+    color: #4a5291;
+}
+.brand{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);;
+    align-items: center;
+    gap: 2.5rem;
+}
+.brand-box {
+    width: 500px;
+}
+.brand-box a button{
+    background-image: url('https://s3-alpha-sig.figma.com/img/651e/8fb5/68ad7a558488ff18e2ca9159abb4433a?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BZZfLlC0TLQaRjHk-Suz~mEHojkbWBcUjPZeH2qCG9eF4ziAMtyte-QhOhPgLS4gbTde8F9AL5QVSA8EdqYh2O8LoIDH5gOlJrBIJFmPf9hsvnPR9596vjc-ks2hRWBkovzn9PHFPuIBi8b-MmWwju~oP-F6cRs31O9-aDbXDAiIkgNv9w78LfK1WdPcZj0SHJxOGmTXwFtvorjxuYPDTyrtbox9n2EnQMoJKtxI3X4uvugbGqmMDgOQbDdqAJg6Qec6RWQ5aOMpli-sc~mIfAZ~JAmWZlFtkIBVoClWVSRPUAWKjMJ68RhXfG1yLlg3YmpW7VrL6oDpY3fYPvpoQg__');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+
+}
+.Galaxy{
+    background-image: url('https://s3-alpha-sig.figma.com/img/eac9/fedc/eed52b00247844f5a19d665f78cfa17f?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xpu-hkleSkIlVl6sQhyid0gUGv6U3ZOypAAhSdmJl1bIEMc-5uBZyV6qNIszOiC0diCurZM1u2G63K1Hz~y--tlujrOUI4VTnAzeEq6mcGN39h0fVrrstL5FYcDspvwTA40ZZY3xc-iR-6JNmD4546NKOI3kWvk-~i3p3ZlkzpiaSFiTsX2zBew6OXJ8HtFBDqxEnY9EcdyoSe306I4PVpMKv~Knhn9OHrbvX2EkpDdRBu5eBDaP5jy7KgY6vD1RpqJD-oTu4cuIDeuDg-x2ZJAaLb-DmGnXiwrcEvGIlfbyq2N2~tQOfAlX9ixzuwWfB9jhFK7Amjfr1dKytgxlug__');
+    background-size: cover;/*hình nên hiện thị đầy đủ */
+    background-position: center;/*được sử dụng để căn chỉnh vị trí của hình nền sao cho nó được hiển thị ở trung tâm của phần tử nền.*/
+    width: 900px;
+    height: 400px;  
+    margin-left: 30px;
+    transition: .5s ease;
+}
+.Galaxy:hover{
+    transform: scale(1.05);
+}
+.IP1{
+    background-image: url('https://s3-alpha-sig.figma.com/img/0aae/54d0/c5e2a7e01abcc7a9eed3fbc93c5d6902?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gLXihCHadK4AiVl4RIKejcz1WWYIoLeSJZHo7CYnVgg1jn6PfmAEK2AfiLWKQgUH9c77YtqBVR98EyCBMPZf457hegEntPeuegHm1u0kyU0rbd9-Q-aLAHMpg~Hb2LX4wCT733xa-61PCBeL3-gCZx5mCozT0oKPtZGJ48PFvMBwxaDrXDig4g~DVfcxdCoJzHR2YwE3uB6CefZv-GLV11ZqX2iEHyeJ57Cn-5Y5jCd85Xjr70GGRg1rdq81zF~FmOtK9MBniZSqf6y6pamRNxZK2H~VwT4eC5UfIYq~gkFcku10GjMa-eTnI3Nu5NLw7yoVmlhBOaY4vKYFZykBWQ__ ');
+    background-size: cover;
+    background-position: center;
+    width:  450px;
+    height: 180px;
+    margin-left: 110px;
+    transition: .5s ease;
+}
+.IP1:hover{
+    transform: scale(1.05);
+}
+.ON{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);;
+    align-items: center;
+    gap: 2.5rem;
+    margin-left: 20px;
+}
+.on-sale-box img{
+    width: 100%;;
+    transition: .5s ease;/*phóng to ảnh*/
+    border-radius: 2rem;
+
+}
+.on-sale-box:hover img{
+    transform: scale(1.1);
+}
+
+
+#Bg{
+    background-image: url('https://s3-alpha-sig.figma.com/img/e14b/dd03/16cef719e34f8433631a3c2521799f49?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dG9TnsM4YIMqHqr0ehydw~GPCo84amY284KgE~Ta90OIoCixMl~6U42UFQRWISRERKV-9WjsFh~Vgln1OK4vWL~WkOYXJH-8oXe8ZLEXs1xMNpjU2ARONLwIpELU7MOpXUH2zDMITRg6FSyjx8uEa73sMokxWZfutN0kCt43lSWKFEWcfEr9Yg10nBp-I-sEPCYaYFX8FCdZluipXf0oUiMbF2ysltM-oIg~vVyz68GeDy3X0u5sJrs4pzjxwsPBYhx57h-43y5KU0fdEiZqwF0bE8mVIBTIHM9BmMhquLDDcIizpCLnyh8v4j~ZDF3R4CBzK20ojiAM7FLbIx4EjA__');
+    background-size: cover;
+    background-position: center;
+    width:  100%;
+    height: 300px;
+}
